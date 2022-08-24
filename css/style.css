@@ -1,6 +1,18 @@
 body {
-    background-color: rgb(62, 61, 61);
+    background-color: black;
     color: aquamarine;
+}
+.menu_topo {
+    display: flex;
+    justify-content: flex-start;
+    background-color: blue;
+    height: 100px;
+
+}
+.menu {
+    width: 100px;
+    height: 300px;
+
 }
 .container {
     display: flex;

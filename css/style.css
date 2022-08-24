@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(62, 61, 61);
+    color: aquamarine;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.item {
+    border-color: aliceblue;
+}

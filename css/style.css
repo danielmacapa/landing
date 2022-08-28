@@ -1,23 +1,64 @@
 body {
     background-color: black;
-    color: aquamarine;
+    color:blanchedalmond;
 }
-.menu_topo {
+.topo {
+    border: solid 3px cornsilk;
+    border-radius: 20px;
     display: flex;
-    justify-content: flex-start;
-    background-color: blue;
-    height: 100px;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
+.lin1 {
+    border: solid 3px blueviolet;
+    display: flex;
 
 }
-.menu {
-    width: 100px;
-    height: 300px;
-
-}
-.container {
+.lin1col1 {
+    border-right: solid 3px greenyellow;
     display: flex;
+    flex-direction: column;
+}
+.lin1col1a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lin1col1b {
+    display: flex;
+    justify-content: space-between;
+}
+.lin1col2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.lin23 {
+    border:solid 3px orange;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.lin23col1 {
+    border-right: solid 3px green;
     justify-content: space-around;
 }
-.item {
-    border-color: aliceblue;
+.lin2col1 {
+    display:flex;
+    justify-content:space-between;
+    flex-flow: row-reverse wrap;
+}
+.lin3col1 {
+    display: flex;
+    justify-content: center;
+}
+.lin23col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lin23col2a {
+    display: flex;
+    align-items: space-around;
 }

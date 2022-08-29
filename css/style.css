@@ -31,9 +31,28 @@ body {
 }
 .lin1col2 {
     display: flex;
+}
+.lin1col2a {
+    display: flex;
     flex-direction: column-reverse;
     justify-content: center;
 }
+.lin1col2b {
+    display: flex;
+    align-items: flex-start;
+}
+#roxo {
+    order: 1;
+    align-self: flex-end;
+}
+#verm {
+    order: 0;
+}
+#laranja {
+    order: 2;
+    align-self: center;
+}
+
 .lin23 {
     border:solid 3px orange;
     border-radius: 20px;
@@ -42,6 +61,7 @@ body {
 }
 .lin23col1 {
     border-right: solid 3px green;
+    flex-direction: column;
     justify-content: space-around;
 }
 .lin2col1 {
@@ -56,9 +76,4 @@ body {
 .lin23col2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-.lin23col2a {
-    display: flex;
-    align-items: space-around;
 }
